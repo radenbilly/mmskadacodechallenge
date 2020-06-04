@@ -1,0 +1,33 @@
+#include <stdio.h>
+int main()
+{
+    int a, b, input;
+    printf("input: "); scanf("%d", &input);
+    for(a = 1; a <= input; a++)
+    {
+        if(a==1 || a==input)
+        {
+            for(b = 1; b <= input ; b++)
+            {
+                printf("*");
+            }
+        }
+        else
+        {
+            for(b = 1; b <= input ; b++)
+            {
+                if(b==1 || b==input)
+                {
+                    printf("*");
+                }
+                else
+                {
+                    printf(" ");
+                }
+            }
+        }   
+        printf("\n");
+    }
+    return 0;
+}
+
