@@ -1,0 +1,8 @@
+array = []
+total = 0
+n = int(20)
+for x in range(n):
+    nilai = (6,7,8,6,9,6,7,8,6,5,4,6,7,8,9,8,10,9,7,8)
+    array.append(nilai)
+print("Rata-rata : ")
+print(sum(nilai)/n)
